@@ -1,5 +1,5 @@
 import { chromium } from '@playwright/test';
-import { users } from '../helpers/testData.js';
+import { users } from './helpers/testData.js';
 
 async function globalSetup() {
   const browser = await chromium.launch();
